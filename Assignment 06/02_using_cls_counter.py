@@ -15,7 +15,7 @@ class Counter:
 
 # Now creating a constructor as per rule good python programmer rules and pass the self parameter in it.
     def __init__(self):
-        Counter.count += 1 # its counter object, this function will work: how many objects we have created.
+        Counter.count += 1 # its counter object, this function will work: how many objects we have created?
 # Now we are using python pre defined Decorator. Decorator name always starts with @ sign.
     @classmethod # to print(this decorator is working for printing or displaying)
 # ab jitna bhi code main likhonga decorator main woh classmethod decorator ka hojayega.
