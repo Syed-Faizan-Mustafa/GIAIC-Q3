@@ -11,7 +11,7 @@
 
 # variable created with in the class it is called class variable.
 class Counter:
-    count = 0   # it is class variable. which is method of class.
+    count = 0   # it is class variable.
 
 # Now creating a constructor as per rule good python programmer rules and pass the self parameter in it.
     def __init__(self):
@@ -43,4 +43,11 @@ Counter.show_count()
 # Keyword	        Refers To	        Used In
 # self	         Object/Instance    Instance Methods
 # cls	          Class itself	     Class Methods
+
+
+# 🧠 Summary Table
+#   Type Variables	              Scope	            Defined In	                    Shared?
+#       Instance	            Per object      Inside methods using self	        ❌ No
+#       Class	                Class-wide      Directly inside class	            ✅ Yes
+#       Local	                Method only     Inside a function/method	        ❌ No
 
